@@ -5,6 +5,6 @@
     echo "Nilai b adalah : ".$b."<br>";
     $c = 3;
     echo "Nilai c adalah : 3".$c."<br>";
-    $hasil = $a + $b / $c;
-    echo "Maka hasil dari ".$a." + ".$b." / ".$c." = ".$hasil;
+    $hasil = ($a + $b) / $c;
+    echo "Maka hasil dari (".$a." + ".$b.") / ".$c." = ".$hasil;
 ?>
