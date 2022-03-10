@@ -9,7 +9,13 @@
     $c = 3;
     echo "Nilai c adalah : $c<br>";
     echo $garis;
+    $hasil = ($a + $b) * $c;
+    echo "<strong>Maka hasil dari ($a + $b) * $c = $hasil </strong><br>";
+    echo $garis;
     $hasil = ($a + $b) / $c;
-    echo "Maka hasil dari ($a + $b) / $c = $hasil <br>";
+    echo "<strong>Maka hasil dari ($a + $b) / $c = $hasil </strong><br>";
+    echo $garis;
+    $hasil = ($a - $b) * $c;
+    echo "<strong>Maka hasil dari ($a - $b) * $c = $hasil </strong><br>";
     echo $garis;
 ?>
