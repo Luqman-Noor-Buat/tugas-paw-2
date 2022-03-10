@@ -12,8 +12,12 @@
     function kota() {
         echo "Demak ";
       }
+      function kota1() {
+        echo "Kota Semarang, Kabupaten Kudus, Kabuaten Jepara, dan Kabupaten Grobogan. ";
+      }
       echo kota()."adalah salah satu kabupaten di Jawa Tengah. <br>";
-      echo kota()."beradai di antara Kota Semarang, Kabupaten Kudus, Kabuaten Jepara, dan Kabupaten Grobogan. <br>";
+      echo kota()."beradai di antara";
+      echo kota1()."<br>";
       echo kota()."memiliki 14 kecamatan dengan 249 desa/kelurahan. <br>";
 ?>
   </h3>
